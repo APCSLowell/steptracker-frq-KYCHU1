@@ -17,6 +17,9 @@ public class StepTracker
    actDays++;
  }
  public int activeDays(){
+  return actDays;
+ }
+public double averageSteps(){
   if(totalDays == 0)
    return 0.0;
   else
