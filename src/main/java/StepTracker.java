@@ -2,7 +2,8 @@ import java.util.ArrayList;
 public class StepTracker
 {
  /* to be implemented here */
- private int minSteps, totalSteps, totalDays, actDats;
+ private int minSteps, totalSteps
+ private int totalDays, actDays;
  public StepTracker(int goal){
   minSteps = goal;
   totalSteps = 0;
